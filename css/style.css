@@ -7,6 +7,10 @@
 header {
     background-color: rgb(255 87 0);
     padding-top: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
 }
 
@@ -83,7 +87,7 @@ header .links-container a {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 110px;
     gap: 1rem;
 }
 
@@ -210,4 +214,37 @@ img {
 
 .image6:hover {
     background-image: url("../img/6b.webp");
+}
+
+footer {
+    display: flex;
+    background-color: rgb(26 26 26);
+    color: white;
+}
+
+footer .container {
+    display: flex;
+}
+
+footer .links-container a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-left {
+    padding-top: 15px;
+    line-height: 30px;
+    justify-content: flex-start;
+}
+
+.footer-right {
+    padding-top: 15px;
+    line-height: 30px;
+    justify-content: flex-end;
+}
+
+.color {
+    color: white;
+    text-align: center;
 }
