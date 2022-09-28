@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(255 87 0);
+    padding-top: 15px;
+
+}
+
+header .links-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.nav-wrapper {
+    display: flex;
+}
+
+.nav-wrapper .logo-container,
+.nav-wrapper .login-container {
+    padding: .5rem .25rem;
+}
+
+.nav-wrapper .icon-container {
+    text-align: right;
+}
+
+.nav-wrapper .links-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.links-container {
+    margin-right: 200px;
+    align-items: center;
+}
+
+.links-container ul {
+    list-style: none;
+}
+
+.links-container ul li {
+    display: inline-block;
+    color: #fff;
+}
+
+.links-container ul li a {
+    padding: .3rem .5rem;
+    display: inline-block;
+}
+
+.logo-container {
+    width: 200px;
+}
+
+.image-logo {
+    width: 125px;
+}
+
+.icon-container {
+    flex-grow: 1;
+    color: white;
+    padding-top: 12px;
+}
+
+.style-text {
+    font-size: 1rem;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid lightgray;
+    position: relative;
+    flex-basis: 30%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.color-red {
+    color: red;
+}
+
+.underline {
+    text-decoration: line-through;
+    color: black;
+}
+
+.display {
+    display: inline;
+}
+
+.sconto {
+    display: inline;
+    background-color: red;
+}
+
+.sostenibilita {
+    display: inline;
+    background-color: green;
+}
+
+.discount-container {
+    padding: .5rem;
+    font-size: .8rem;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+}
