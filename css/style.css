@@ -11,6 +11,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 
 }
 
@@ -23,6 +24,9 @@ header .links-container a {
     width: 920px;
     margin: 0 auto;
     padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
 }
 
 .nav-wrapper {
@@ -75,6 +79,7 @@ header .links-container a {
     flex-grow: 1;
     color: white;
     padding-top: 12px;
+    padding-left: 210px;
 }
 
 .style-text {
@@ -85,15 +90,12 @@ header .links-container a {
 }
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 110px;
-    gap: 1rem;
 }
 
 .card {
     position: relative;
-    flex-basis: 30%;
+    flex-basis: 100%;
     overflow: hidden;
 }
 
@@ -144,10 +146,6 @@ img {
     bottom: 85px;
     left: 0;
 
-}
-
-.heart-container:hover {
-    color: red;
 }
 
 .image1 {
@@ -242,6 +240,7 @@ footer .links-container a {
     padding-top: 15px;
     line-height: 30px;
     justify-content: flex-end;
+    padding-left: 70px;
 }
 
 .color {
